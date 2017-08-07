@@ -10,17 +10,22 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  height: 1.5em;
   border: 1em;
 }
 
 li {
   color: black;
   display: inline;
-  border: 1em;
-  border-radius: 0.5px;
+  height: 1.5em;
+  border: 1em solid black;
+  border-radius: 0.5px solid black;
+}
+
+li a {
+    text-align: center;
 }
 
 li a:hover {
     background-color: green;
+    color: white;
 }
