@@ -4,7 +4,11 @@ body {
 
 div.title {
   font-size: 3em;
-  font: Montserrat; 
+  font: Montserrat;
+}
+
+img.icon {
+  border-radius: 1em;
 }
 
 ul.navbar {
