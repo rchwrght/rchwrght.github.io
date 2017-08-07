@@ -22,7 +22,8 @@ ul.navbar {
   padding: 0.5em;
   border: 1px solid black;
   position: fixed;
-  top: 0;
+  top: 5em;
+  width: 100%;
 }
 
 ul.navbar li {
