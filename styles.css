@@ -26,6 +26,7 @@ ul.navbar {
 ul.navbar li {
   color: black;
   display: inline;
+  height: 0.5em;
   padding: 0.5em;
   border-right: 0.5px solid black;
   border-radius: 1px solid black;
