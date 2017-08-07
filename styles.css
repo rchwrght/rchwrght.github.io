@@ -15,11 +15,12 @@ ul {
 }
 
 li {
+  color: black;
   display: inline;
   border: 1em;
   border-radius: 0.5px;
 }
 
 li a:hover {
-    color: green;
+    background-color: green;
 }
