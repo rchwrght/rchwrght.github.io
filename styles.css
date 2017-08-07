@@ -44,4 +44,7 @@ ul.navbar li a:hover {
 
 ul.navbar li.right {
   float: right;
+  padding: 0;
+  border-left: 0.5px solid black;
+  border-right: 0px;
 }
