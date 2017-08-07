@@ -2,23 +2,21 @@ body {
   background-color: blue;
 }
 
-div.navbar {
+ul.navbar {
+  font-size: 1em;
   background-color: white;
-}
-
-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  border: 1em;
+  border: 1px solid black;
 }
 
 li {
   color: black;
   display: inline;
   height: 1.5em;
-  border: 1em solid black;
-  border-radius: 0.5px solid black;
+  border: 0.5px solid black;
+  border-radius: 1px solid black;
 }
 
 li a {
