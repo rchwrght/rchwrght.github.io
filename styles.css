@@ -1,17 +1,22 @@
 body {
-  background-color: blue;
+  background-color: white;
+}
+
+div.title {
+  font-size: 3em;
+  font: Montserrat; 
 }
 
 ul.navbar {
   font-size: 1em;
-  background-color: white;
+  background-color: Grey;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0.5em;
   border: 1px solid black;
 }
 
-li {
+ul.navbar li {
   color: black;
   display: inline;
   height: 1.5em;
@@ -19,12 +24,12 @@ li {
   border-radius: 1px solid black;
 }
 
-li a {
+ul.navbar li a {
     text-align: center;
-    padding: 1em;
+    padding: 0.5em;
 }
 
-li a:hover {
+ul.navbar li a:hover {
     background-color: green;
     color: white;
 }
