@@ -42,4 +42,5 @@ ul.navbar li.right {
     float: right;
     border-left: 1px solid black;
     padding: 0em;
+    border-right: none;
 }
