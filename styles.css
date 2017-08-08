@@ -5,6 +5,11 @@ body {
 div.title {
     font-family: Montserrat;
     display: inline;
+    margin: 1em;
+}
+
+div.title h1 {
+    text-align: center;
 }
 
 div.title img.icon {
