@@ -15,7 +15,7 @@ div.title h1 {
 div.title img.icon {
     float: left;
     border-radius: 0.5em;
-    margin: 1em 0em 0em 1em;
+    margin: 1.5em 0em 0em 1.5em;
 }
 
 ul.navbar {
@@ -53,4 +53,8 @@ ul.navbar li.right {
     padding: 0.5em;
     border-right: none;
     text-align: center;
+}
+
+.active {
+  background-color: #17BC1A;
 }
