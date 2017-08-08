@@ -15,11 +15,13 @@ div.title h1 {
 div.title img.icon {
     float: left;
     border-radius: 0.5em;
+    margin: 1em 0em 0em 1em;
 }
 
 ul.navbar {
     list-style-type: none;
-    border: 1px solid black;
+    border: 1px solid #FFF;
+    border-radius: 0.5em;
     font-size: : 1em;
     margin: 0;
     padding: 0;
