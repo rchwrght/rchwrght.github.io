@@ -28,7 +28,6 @@ ul.navbar {
 }
 
 ul.navbar li {
-    padding: 0.5em;
     border-right: 1px solid black;
     float: left;
 }
