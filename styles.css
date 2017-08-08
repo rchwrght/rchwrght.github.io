@@ -3,12 +3,13 @@ body {
 }
 
 div.title {
-    font: : Montserrat;
+    font: Montserrat;
     display: inline;
 }
 
 div.title img.icon {
     float: left;
+    border-radius: 0.5px;
 }
 
 ul.navbar {
@@ -19,7 +20,7 @@ ul.navbar {
     background-color: #A1A6AA;
 }
 
-ul.navar li {
+ul.navbar li {
     display: inline;
     font: Montserrat;
     padding: 0.5em;
