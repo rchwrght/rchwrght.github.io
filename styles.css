@@ -34,9 +34,8 @@ ul.navbar li a {
     color: #FFF;
 }
 
-ul.navbar li a:hover{
+ul.navbar li:hover{
     background-color: #303133;
-    padding: 0.5em;
 }
 
 ul.navbar li.right {
