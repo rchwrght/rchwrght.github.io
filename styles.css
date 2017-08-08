@@ -3,7 +3,7 @@ body {
 }
 
 div.title {
-    font: Montserrat;
+    font-family: Montserrat;
     display: inline;
 }
 
@@ -16,14 +16,14 @@ ul.navbar {
     list-style-type: none;
     border: 1px solid black;
     font-size: : 1em;
-    margin: 0.5em;
+    margin: 1em;
     background-color: #A1A6AA;
     padding: 0.5em;
 }
 
 ul.navbar li {
     float: left;
-    font: Montserrat;
+    font-family: Motserrat;
     padding: 0.5em;
     border-right: 1px solid black;
 }
