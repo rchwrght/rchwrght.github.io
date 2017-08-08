@@ -21,9 +21,9 @@ ul.navbar {
     list-style-type: none;
     border: 1px solid black;
     font-size: : 1em;
-    margin: 0.5em;
+    margin: 0;
+    padding: 0;
     background-color: #A1A6AA;
-    padding: 0.5em;
     overflow: hidden;
 }
 
