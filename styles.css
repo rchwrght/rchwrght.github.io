@@ -21,18 +21,20 @@ ul.navbar {
     list-style-type: none;
     border: 1px solid black;
     font-size: : 1em;
-    margin: 0em;
+    margin: 0.5em;
     background-color: #A1A6AA;
-    padding: 0em;
+    padding: 0.5em;
+    overflow: hidden;
 }
 
 ul.navbar li {
     padding: 0.5em;
     border-right: 1px solid black;
-    display: inline;
+    float: left;
 }
 
 ul.navbar li a {
+    display: block;
     text-align: center;
     text-decoration: none;
     font-family: Motserrat;
