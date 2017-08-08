@@ -29,7 +29,7 @@ ul.navbar {
 
 ul.navbar li {
     padding: 0.5em;
-    border-right: 1px solid black;
+    border-right: 1px solid #FFF;
     float: left;
 }
 
@@ -37,8 +37,8 @@ ul.navbar li a {
     display: block;
     text-align: center;
     text-decoration: none;
-    font-family: Motserrat;
     color: #FFF;
+    font-family: Montserrat;
 }
 
 ul.navbar li:hover{
@@ -47,7 +47,7 @@ ul.navbar li:hover{
 
 ul.navbar li.right {
     float: right;
-    border-left: 1px solid black;
+    border-left: 1px solid #FFF;
     padding: 0.5em;
     border-right: none;
     text-align: center;
