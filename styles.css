@@ -22,13 +22,14 @@ ul.navbar {
 }
 
 ul.navbar li {
-    display: inline;
+    float: left;
     font: Montserrat;
     padding: 0.5em;
     border-right: 1px solid black;
 }
 
 ul.navbar li a {
+    display: block;
     text-align: center;
     padding: 0.5em;
     color: #FFF;
