@@ -58,3 +58,9 @@ ul.navbar li.right {
 .active {
   background-color: #17BC1A;
 }
+
+div.game {
+  text-align: center;
+  display: inline;
+  font-family: Montserrat;
+}
