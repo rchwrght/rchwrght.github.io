@@ -65,7 +65,7 @@ ul.navbar li.right {
 }
 
 div.game {
-  float: right;
+  text-align: center;
   display: inline;
   font-family: Montserrat;
 }
