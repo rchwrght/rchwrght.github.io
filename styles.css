@@ -64,3 +64,8 @@ div.game {
   display: inline;
   font-family: Montserrat;
 }
+
+img.thumbnail {
+  width: 400px;
+  height: 300px;
+}
