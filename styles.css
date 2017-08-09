@@ -59,7 +59,7 @@ ul.navbar li.right {
   background-color: #17BC1A;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (orientation: portrait){
     ul.navbar li.right,
     ul.navbar li {float: none;}
 }
