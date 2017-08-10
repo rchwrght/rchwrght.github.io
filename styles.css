@@ -8,7 +8,7 @@ div.title {
     margin: 1em;
 }
 
-div.title h1 {
+div.title h1, div.title h2 {
     text-align: center;
 }
 
