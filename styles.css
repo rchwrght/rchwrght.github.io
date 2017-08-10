@@ -79,6 +79,7 @@ div.textbox {
   margin: 10%;
   margin-top: 5%;
   padding: 1.5em;
+  padding-top: 0.5em;
   width: 70%;
   border: 2px solid black;
   border-radius: 5px;
