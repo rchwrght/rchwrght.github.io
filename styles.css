@@ -1,9 +1,9 @@
-body {
-
+p {
+  font-family: 'Ubuntu Condensed';
 }
 
 div.title {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     display: inline;
     margin: 1em;
 }
@@ -40,7 +40,7 @@ ul.navbar li a {
     text-align: center;
     text-decoration: none;
     color: #FFF;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
 }
 
 ul.navbar li:hover{
@@ -67,7 +67,7 @@ ul.navbar li.right {
 div.game {
   text-align: center;
   display: inline;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
 }
 
 img.thumbnail {
