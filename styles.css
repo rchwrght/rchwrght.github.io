@@ -61,7 +61,7 @@ ul.navbar li.right {
 
 @media screen and (orientation: portrait){
     ul.navbar li.right,
-    ul.navbar li {float: none;}
+    ul.navbar li {float: none; font-size: 20px;}
 }
 
 div.game {
