@@ -47,7 +47,7 @@ ul.navbar li:hover{
     background-color: #303133;
 }
 
-ul.navbar li.right {
+ul.navbar {
     float: right;
     border-left: 1px solid #FFF;
     padding: 0.5em;
@@ -60,8 +60,10 @@ ul.navbar li.right {
 }
 
 @media screen and (orientation: portrait){
-    ul.navbar li.right,
-    ul.navbar li {float: none; font-size: 20px;}
+    ul.navbar li {
+      float: none;
+      font-size: 40px;
+    }
 }
 
 div.game {
