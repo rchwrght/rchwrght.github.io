@@ -25,8 +25,13 @@ ul.navbar {
     font-size: : 1em;
     margin: 0;
     padding: 0;
+    width: 100%;
     background-color: #A1A6AA;
     overflow: hidden;
+    float: left;
+    border-left: 1px solid #FFF;
+    padding: 0.5em;
+    text-align: center;
 }
 
 ul.navbar li {
@@ -45,14 +50,6 @@ ul.navbar li a {
 
 ul.navbar li:hover{
     background-color: #303133;
-}
-
-ul.navbar {
-    float: right;
-    border-left: 1px solid #FFF;
-    padding: 0.5em;
-    border-right: none;
-    text-align: center;
 }
 
 .active {
