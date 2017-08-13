@@ -77,7 +77,7 @@ ul.navbar li:hover, .dropdown:hover .dropbtn{
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #A1A6AA;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
