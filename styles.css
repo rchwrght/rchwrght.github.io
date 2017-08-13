@@ -103,7 +103,7 @@ ul.navbar li:hover, .dropdown:hover .dropbtn{
 }
 
 .dropdown:hover .dropdown-content {
-    display: inline-block;
+    display: block;
 }
 
 div.game {
