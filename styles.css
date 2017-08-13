@@ -33,7 +33,7 @@ ul.navbar {
     text-align: center;
 }
 
-ul.navbar li {
+ul.navbar li, .dropbtn {
     padding: 0.5em;
     border-right: 1px solid #FFF;
     float: left;
