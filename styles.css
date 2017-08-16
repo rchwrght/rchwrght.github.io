@@ -63,7 +63,7 @@ ul.navbar li:hover, .dropdown:hover .dropbtn{
     }
     .dropbtn a {
       font-size: 40px;
-      display: block;
+      width: 100%;
     }
 }
 
