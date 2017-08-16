@@ -57,9 +57,13 @@ ul.navbar li:hover, .dropdown:hover .dropbtn{
 }
 
 @media screen and (orientation: portrait){
-    ul.navbar li, .dropbtn a {
+    ul.navbar li {
       float: none;
       font-size: 40px;
+    }
+    .dropbtn a {
+      font-size: 40px;
+      display: block;
     }
 }
 
