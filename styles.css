@@ -120,6 +120,11 @@ img.thumbnail {
   height: 300px;
 }
 
+img.thumbnail2 {
+  width: 400px;
+  height: 225px;
+}
+
 div.textbox {
   margin: 10%;
   margin-top: 5%;
