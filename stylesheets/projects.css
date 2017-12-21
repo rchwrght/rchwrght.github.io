@@ -1,0 +1,21 @@
+body {
+	background-color: #e3e3e3;
+	background-image: url("../images/tirza-van-dijk-58298.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.row div {
+	margin: 150px 4.16%;
+	height: 300px;
+	background-color: rgba(248,248,248,0.8);
+	text-align: center;
+	border-radius: 5%;
+	transition: all 0.5s;
+}
+
+.row div:hover {
+	box-shadow: 2px 2px 13px rgba(0,0,0,0.6), 
+				8px 8px 23px rgba(0,0,0,0.2);
+	transform: translate(-2px, -2px)
+}
