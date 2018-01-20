@@ -3,12 +3,13 @@ body{
 	text-align: center;
 }
 
-div {
+.row div {
 	overflow: hidden;
+	margin: 5px 0;
 }
 
 .myButton {
-	margin-top: 70px;
+	margin: 70px 0;
 }
 
 .more {

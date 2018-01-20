@@ -9,10 +9,22 @@ var xhr = $.get("https://api.giphy.com/v1/gifs/search?q=" + search +"&api_key=53
 	}
 });
 
+var needMore = true;
+
 $(".myButton").click(function(){
-	$(".more").slideDown(1000, function(){
-		$(".more").css("opacity", "1");
-	});
+	if(needMore){
+		$(".more").slideDown(1000, function(){
+			$(".more").css("opacity", "1");
+			needMore = false;
+			document.querySelector(".myButton").textContent = "Load Less";
+		});
+	} else {
+		$(".more").slideUp(1000, function(){
+			$(".more").css("opacity", "0");
+			needMore = true;
+			document.querySelector(".myButton").textContent = "Load More";
+		});
+	}
 });
 
 $("form").submit(function(){
