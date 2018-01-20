@@ -1,0 +1,28 @@
+ul {
+	margin: 0;
+	height: 50px;
+	background-color: #EEEEEE;
+}
+
+li {
+	list-style: none;
+	float: left;
+	cursor: pointer;
+}
+
+.link {
+	float: left;
+	list-style: none;
+	font-size: 16px;
+	padding: 0 2%;
+	margin: 1.5% 0;
+}
+
+.link:hover {
+	background-color: #70CDD8;
+	transition: all 0.5s;
+}
+
+.brand {
+	height: 50px;
+}

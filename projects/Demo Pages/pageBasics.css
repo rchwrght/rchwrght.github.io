@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	font-family: Raleway;
+	background-color: #232323;
+}
+
+.title {
+	background-color: #70CDD8;
+	margin: 0;
+	height: 70px;
+	text-align: center;
+	padding-top: 3%;
+	text-transform: uppercase;
+}
+
+h1 {
+	margin: 5% 35%;
+	background-color: #EEEEEE;
+	text-align: center;
+}
+
+.heading {
+	border-radius: 5px;
+}

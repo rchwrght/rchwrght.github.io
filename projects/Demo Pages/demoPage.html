@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page of Demo items for a Website</title>
+	<!-- CSS for basic page parts -->
+	<link rel="stylesheet" type="text/css" href="pageBasics.css">
+	<!-- CSS for Navbar -->
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+	<!-- font link -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+	<!-- CSS for Carosel -->
+	<link rel="stylesheet" type="text/css" href="carosel.css">
+	<!-- CSS for noughts and crosses -->
+	<link rel="stylesheet" type="text/css" href="tictactoe.css">
+</head>
+<body>
+
+<div>
+	<h1 class="title">Welcome to my Demo page</h1>
+</div>
+
+<!-- self created navbar -->
+<div>
+	<nav>
+		<ul>
+			<li><img src="lrg pixel dragon fire.png" class="brand"></li>
+			<li class="link">Home</li>
+			<li class="link">About</li>
+			<li class="link">Demo</li>
+		</ul>
+	</nav>
+</div>
+
+<!-- Picture Carosel -->
+<h1 class="heading">Carosel</h1>
+<div class="carosel">
+	<button class="left"><</button>
+	<img class="carImg" src="Carosel/image1.jpg">
+	<img class="carImg" src="Carosel/image2.jpg">
+	<img class="carImg" src="Carosel/image3.jpg">
+	<img class="carImg" src="Carosel/image4.jpg">
+	<img class="carImg" src="Carosel/image5.jpg">
+	<button class="right">></button>
+</div>
+
+<!-- Noughts and Crosses board -->
+<h1 class="heading">Tic Tac Toe</h1>
+<div class="board">
+	<p class="player">X to play</p>
+	<table>
+		<tr>
+			<td></td>
+			<td class="middle sq2"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="across"></td>
+			<td class="middle across"></td>
+			<td class="across"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="middle"></td>
+			<td></td>
+		</tr>
+	</table>
+	<button class="tttButton">Reset</button>
+</div>
+
+<script type="text/javascript" src="carosel.js"></script>
+<script type="text/javascript" src="tictactoe.js"></script>
+</body>
+</html>

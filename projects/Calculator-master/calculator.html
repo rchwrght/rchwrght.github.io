@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu Condensed' rel='stylesheet'>
+</head>
+<body>
+<div class="body">
+	<div class="result">
+		<p><span>0</span></p>
+	</div>
+	<div class="numbRow">
+		<button onclick="number(7)">7</button>
+		<button onclick="number(8)">8</button>
+		<button onclick="number(9)">9</button>	
+	</div>
+	<div class="numbRow">
+		<button onclick="number(4)">4</button>
+		<button onclick="number(5)">5</button>
+		<button onclick="number(6)">6</button>	
+	</div>
+	<div class="numbRow">
+		<button onclick="number(1)">1</button>
+		<button onclick="number(2)">2</button>
+		<button onclick="number(3)">3</button>	
+	</div>
+	<div class="numbRow">
+		<button onclick="moveToB('+')">+</button>
+		<button onclick="number(0)">0</button>
+		<button onclick="moveToB('-')">-</button>
+	</div>
+	<div class="numbRow">
+		<button onclick="equals()">=</button>
+		<button onclick="clearAll()" id="clearAll">CE</button>
+		<button onclick="moveToB('*')">*</button>
+	</div>
+</div>
+
+<div>
+	<p><a href="../../personal.html">Back</a></p>
+</div>
+
+<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
