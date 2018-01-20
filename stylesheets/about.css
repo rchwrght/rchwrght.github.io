@@ -24,8 +24,8 @@ p{
 }
 
 .image-container {
-	margin-top: 100px;
-	height: 250px;
+	margin: 100px 0;
+	height: 200px;
 	overflow: hidden;
 }
 
@@ -54,16 +54,6 @@ i.fa.fa-quote-right {
 	margin-left: 10px;
 }
 
-.labels {
-	height: 200px;
-	padding: 30px 10px 10px;
-}
-
-.labels h1 {
-	padding: 0;
-	line-height: 2;
-}
-
 .row div {
 	background-color: #f8f8f8;
 	margin: 4.16%;
@@ -80,4 +70,19 @@ i.fa.fa-quote-right {
 
 i.fa.fa-comments {
 	font-size: 3em;
+}
+
+i.fa.fa-hand-rock-o {
+	font-size: 3em;
+}
+
+.skills {
+	margin: auto;
+	width: 80%;
+	background-color: #f8f8f8;
+	text-align: center;
+}
+
+.skills li {
+	list-style: none;
 }

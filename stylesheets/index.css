@@ -1,6 +1,7 @@
 body {
 	background-image: url("../images/simon-abrams-286276.jpg");
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 
@@ -40,3 +41,24 @@ h1 {
 	text-decoration: none;
 	color: #e7e7e7;
 }
+
+/*.anchor {
+	text-decoration: none;
+	background-color: #8e06b3;
+	color: #e7e7e7;
+	width: 100px;
+	font-size: 1.5em;
+	font-family: Ubuntu Condensed;
+	padding: 8px 20px;
+	margin: 5% 6.33%;
+	border-radius: 10%;
+	transition: all 0.2s;
+}
+
+.anchor:hover {
+	text-decoration: none;
+	color: #e7e7e7;
+	transform: translate(-2px, -2px);
+	box-shadow: 2px 2px 13px rgba(0,0,0,0.6), 
+				8px 8px 23px rgba(0,0,0,0.2);
+}*/
