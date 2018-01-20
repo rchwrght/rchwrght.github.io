@@ -1,7 +1,6 @@
 var search = location.search.slice(8);
-console.log(search);
 
-var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=53WYlS1SZqJ1NOEAgZeQlD6sddrUA013&limit=25", function(data){
+var xhr = $.get("https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=53WYlS1SZqJ1NOEAgZeQlD6sddrUA013&limit=25", function(data){
 
 	var images = document.querySelectorAll("img");
 
