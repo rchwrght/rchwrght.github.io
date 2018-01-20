@@ -6,3 +6,11 @@ body{
 div {
 	overflow: hidden;
 }
+
+.myButton {
+	margin-top: 70px;
+}
+
+.more {
+	display: none;
+}
