@@ -143,7 +143,7 @@
 			"file": "giphy.js",
 			"settings":
 			{
-				"buffer_size": 1188,
+				"buffer_size": 1149,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -152,7 +152,16 @@
 			"file": "/C/Users/rchwr/OneDrive/Documents/GitHub/rchwrght.github.io/projects/giphy.html",
 			"settings":
 			{
-				"buffer_size": 3176,
+				"buffer_size": 3171,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/rchwr/OneDrive/Documents/GitHub/rchwrght.github.io/stylesheets/giphy.css",
+			"settings":
+			{
+				"buffer_size": 197,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -341,15 +350,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1188,
+						"buffer_size": 1149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1180,
-								1180
+								1144,
+								1144
 							]
 						],
 						"settings":
@@ -370,15 +379,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3176,
+						"buffer_size": 3171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2870,
-								2870
+								815,
+								815
 							]
 						],
 						"settings":
@@ -387,10 +396,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 87.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/rchwr/OneDrive/Documents/GitHub/rchwrght.github.io/stylesheets/giphy.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
