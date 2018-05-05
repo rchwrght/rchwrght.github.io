@@ -35,4 +35,5 @@ $("form").submit(function(){
 			images[i].src=data["data"][i]["images"]["fixed_height"]["url"];
 		}
 	});
+	$(".myButton").removeClass(".more");
 });
