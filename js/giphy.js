@@ -27,7 +27,7 @@ $(".myButton").click(function(){
 	}
 });
 
-$("form").submit(function(){
+$("form").click(function(){
 	var search = $("input[type='text']").val();
 	var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=53WYlS1SZqJ1NOEAgZeQlD6sddrUA013&limit=25", function(data){
 		var images = document.querySelectorAll("img");
