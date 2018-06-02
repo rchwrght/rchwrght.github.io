@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jack's Bar Meribel</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
 </head>
@@ -37,22 +39,22 @@
 		<p>Located next to Meribel's main set-off point, Jack's Bar has been rocking apres since 1993.</p>
 		<hr>
 		<ul class="grid">
-			<li>
+			<li class="left">
 				<i class="fa fa-music fa-4x"></i>
 				<h4>Live Music</h4>
 				<p>Everyday from 5pm. Happy Hour 4-5pm</p>
 			</li>
-			<li>
+			<li class="right">
 				<i class="fa fa-glass fa-4x"></i>
 				<h4>Cocktails Galore</h4>
 				<p>A fresh and modern selection of fantastic cocktails</p>
 			</li>
-			<li>
+			<li class="left">
 				<i class="fa fa-cutlery fa-4x"></i>
 				<h4>Homemade Pizzas</h4>
 				<p>Meribel's freshest and most innovative Pizza Menu</p>
 			</li>
-			<li>
+			<li class="right">
 				<i class="fa fa-futbol-o fa-4x"></i>
 				<h4>Live Sport</h4>
 				<p>Showing as much Premier League action as we can throughout the season</p>
@@ -69,10 +71,10 @@
 		<h3>Check out this years amazing acts</h3>
 		<hr>
 		<div class="grid">
-			<li class="small" style="background-image: url(images/music/daisyb.jpeg);"></li>
-			<li class="large" style="background-image: url(images/music/maps.jpeg);"></li>
-			<li class="large" style="background-image: url(images/music/hobo.jpeg);"></li>
-			<li class="small" style="background-image: url(images/music/jaytamkin.jpeg);"></li>
+			<li class="small left" style="background-image: url(images/music/daisyb.jpeg);"></li>
+			<li class="large right" style="background-image: url(images/music/maps.jpeg);"></li>
+			<li class="large left" style="background-image: url(images/music/hobo.jpeg);"></li>
+			<li class="small right" style="background-image: url(images/music/jaytamkin.jpeg);"></li>
 		</div>
 	</section>
 
@@ -85,6 +87,7 @@
 		<li>11th Jan - Live Stand-Up Comedy</li>
 		<li>24th Jan - Day of the Dead</li>
 		<li>15th Feb - Live Stand-Up Comedy</li>
+		<li>3rd Apr - Full-Moon Party</li>
 	</section>
 
 	<section class="team">
@@ -105,7 +108,28 @@
 	</section>
 
 	<section class="contact">
-		
+		<h3 class="title">Make a Reservation</h3>
+		<p>*Reservations less than two days in advance must be called in</p>
+		<hr>
+		<form>
+			<input type="email" placeholder="Your E-mail">
+			<input type="text" placeholder="Your Name">
+			<div>
+				<input type="date" value="2018-01-01">
+				<input type="time" value="18:00" min="18:00" max="22:00">				
+			</div>
+			<a href="#" class="btn">Make Reservation</a>
+		</form>
 	</section>
+
+	<footer>
+		<a href="https://www.rchwrght.eu/personal.html">Return to Portfolio</a>
+	    <ul>
+	      <li><a href="https://www.twitter.com/jacksbarmeribel"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+	      <li><a href="https://www.facebook.com/jacksbarmeribel"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+	      <li><a href="https://www.instagram.com/jacksbarmeribel"><i class="fa fa-instagram fa-2x"></i></a></li>
+	    </ul>		
+	</footer>
+	<script type="text/javascript" src="js/jacks.js"></script>
 </body>
 </html>
