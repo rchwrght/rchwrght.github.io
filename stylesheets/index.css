@@ -57,6 +57,12 @@ section{
 	display: flex;
 	flex-direction: column;
 	min-height: 40vh;
+	padding: 40px 20px;
+}
+
+section:nth-of-type(2n){
+	background-color: #c7c7c7;
+	color: #292929;
 }
 
 @keyframes fadein{
@@ -108,7 +114,6 @@ section{
 #about{
 	justify-content: center;
 	align-items: center;
-	padding:20px;
 }
 
 #about p{
@@ -120,7 +125,6 @@ section{
 #projects{
 	align-items: center;
 	justify-content: center;
-	padding: 20px;
 }
 
 
@@ -172,7 +176,6 @@ section{
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	padding: 20px;
 }
 
 #contact div{
