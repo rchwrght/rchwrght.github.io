@@ -169,6 +169,13 @@ header nav {
 
 /*Food Styles*/
 
+.food div{
+	display: flex;
+	width: 40%;
+	justify-content: space-between;
+	align-items: center;
+}
+
 /*Music Styles*/
 
 .music .grid li {
