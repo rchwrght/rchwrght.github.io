@@ -50,7 +50,6 @@ nav li, nav li a{
 	justify-content: space-between;
 	color: #f1f1f1;
 	margin: 0 15px;
-	/*TODO add animation of fade in*/ 
 }
 
 section{
@@ -187,7 +186,7 @@ section:nth-of-type(2n){
 
 /*Footer Styles*/
 footer{
-	height: 100px;
+	/*height: 100px;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -195,6 +194,16 @@ footer{
 	background-color: #031223;
 	color: #f1f1f1;
 	padding: 20px;
+	text-align: center
+}
+
+footer a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active{
+	text-decoration: underline;
+	color: #f1f1f1;
 }
 
 #footer-container{
@@ -202,7 +211,8 @@ footer{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	text-align: center;
+	height: 50px;
+	margin: 0 0 30px;
 }
 
 #footer-container i{
