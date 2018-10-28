@@ -143,7 +143,6 @@ section:nth-of-type(2n){
 .project-card p{
 	position: absolute;
 	top: 20%;
-	left: 20%;
 	font-size: 34px;
 	line-height: 1.25em;
 	color: #f1f1f1;
