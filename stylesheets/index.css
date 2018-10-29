@@ -5,6 +5,7 @@
 	padding:0;
 	box-sizing: border-box;
 	font-family: sans-serif;
+	text-align: center;
 }
 
 body{
@@ -216,4 +217,26 @@ a:active{
 
 #footer-container i{
 	font-size: 2em;
+}
+
+/* Mobile Screen Adjustments */
+@media screen and (max-width: 800px) {
+	
+	/* Header Styles */
+	header, nav{
+		flex-direction: column;
+		font-size: 40px;
+		text-align: center;
+		margin: 5px 0;
+	}
+
+	nav li{
+		padding: 5px 0;
+		opacity: 0;
+	}
+
+	/* Project Styles */
+	.project-card p{
+		font-size: 17px;
+	}
 }
