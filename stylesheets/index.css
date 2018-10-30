@@ -243,10 +243,12 @@ a:active{
 	nav li{
 		padding: 5px 0;
 		opacity: 0;
+		display:none;
 	}
 
 	.showMenu{
 		opacity: 1;
+		display: inline-block;
 	}
 
 	.myMenu{
