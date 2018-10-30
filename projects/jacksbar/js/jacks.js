@@ -16,7 +16,6 @@ function isInViewPort(elem, item){
 		bounding.right <= (window.innerWidth || document.documentElement.clientWidth) &&
 		bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
 	) {
-		console.log('In the viewport!');
 		for(var i = 0; i < item.length; i++){
 			item[i].classList.add("animate");
 		}
