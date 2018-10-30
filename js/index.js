@@ -1,6 +1,5 @@
 var myMenu = document.querySelector(".myMenu");
 var menuLis = document.querySelectorAll("nav li");
-var sections = document.querySelectorAll("section");
 
 myMenu.addEventListener("click", function(){
 	menuLis.forEach(function(elem){
@@ -8,6 +7,8 @@ myMenu.addEventListener("click", function(){
 	});
 });
 
+
+//Taken from StackOverflow
 window.smoothScroll = function(target) {
     var scrollContainer = target;
     do { //find scroll container
