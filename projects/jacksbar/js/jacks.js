@@ -20,7 +20,5 @@ function isInViewPort(elem, item){
 		for(var i = 0; i < item.length; i++){
 			item[i].classList.add("animate");
 		}
-	} else {
-		console.log('Not in the viewport... whomp whomp');
-	}	
+	}
 };

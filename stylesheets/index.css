@@ -24,6 +24,18 @@ a {
 	text-decoration: none;
 }
 
+section{
+	display: flex;
+	flex-direction: column;
+	min-height: 40vh;
+	padding: 40px 20px;
+}
+
+section:nth-of-type(2n){
+	background-color: #c7c7c7;
+	color: #292929;
+}
+
 /*Header Styles*/
 
 header{
@@ -53,16 +65,10 @@ nav li, nav li a{
 	margin: 0 15px;
 }
 
-section{
-	display: flex;
-	flex-direction: column;
-	min-height: 40vh;
-	padding: 40px 20px;
-}
-
-section:nth-of-type(2n){
-	background-color: #c7c7c7;
-	color: #292929;
+.myMenu{
+	color: #f1f1f1;
+	/*font-size: 1.5em;*/
+	display: none;
 }
 
 @keyframes fadein{
@@ -225,14 +231,27 @@ a:active{
 	/* Header Styles */
 	header, nav{
 		flex-direction: column;
-		font-size: 40px;
+		font-size: 30px;
 		text-align: center;
 		margin: 5px 0;
+	}
+
+	#title{
+		display: none;
 	}
 
 	nav li{
 		padding: 5px 0;
 		opacity: 0;
+	}
+
+	.showMenu{
+		opacity: 1;
+	}
+
+	.myMenu{
+		display: inline-block;
+		cursor: pointer;
 	}
 
 	/* Project Styles */
