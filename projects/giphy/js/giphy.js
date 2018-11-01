@@ -7,6 +7,9 @@ var xhr = $.get("https://api.giphy.com/v1/gifs/search?q=" + search +"&api_key=53
 	for(var i = 0; i < images.length; i++){
 		images[i].src=data["data"][i]["images"]["fixed_height"]["url"];
 	}
+
+	$(".myButton").css("opacity", "1");
+	$(".myButton").css("display", "inline-block");
 });
 
 var needMore = true;
