@@ -13,7 +13,7 @@ body{
 }
 
 hr{
-	margin: 0 0 10px;
+	margin: 10px 0;
 	width:20%;
 	border: 0;
   height: 1px;
@@ -22,6 +22,10 @@ hr{
 
 a {
 	text-decoration: none;
+}
+
+p{
+	line-height: 1.5em;
 }
 
 section{
@@ -134,10 +138,10 @@ nav li, nav li a{
 
 #about p{
 	width:60%;
-	line-height: 1.25em;
 }
 
 /*Projects Styles*/
+
 #projects{
 	align-items: center;
 	justify-content: center;
@@ -180,7 +184,6 @@ nav li, nav li a{
 	transform: scale(1);
 }
 
-
 /*Contact Styles*/
 
 #contact{
@@ -197,8 +200,8 @@ nav li, nav li a{
 }
 
 /*Footer Styles*/
+
 footer{
-	/*height: 100px;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -232,9 +235,11 @@ a:active{
 }
 
 /* Mobile Screen Adjustments */
+
 @media screen and (max-width: 800px) {
 	
 	/* Header Styles */
+	
 	header, nav{
 		flex-direction: column;
 		font-size: 30px;
@@ -279,6 +284,7 @@ a:active{
 	}
 
 	/*Footer Styles*/
+	
 	#footer-container{
 		flex-direction: column;
 		height: 120px;
