@@ -1,0 +1,50 @@
+body{
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+
+.section a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 0.5em;
+}
+
+a:visited{
+	color: white;
+}
+
+.section{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: "Pattaya";
+	font-size: 3em;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.section_one {
+	background-image: url("https://images.unsplash.com/photo-1527856263669-12c3a0af2aa6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=22c40382a2620d17e02f747531d72613&auto=format&fit=crop&w=1350&q=80");
+	background-size: cover;
+	/* image taken from UnSplash.com credit to Peter Conlan */
+}
+
+.section_two {
+	background-image: url("https://images.unsplash.com/photo-1519904981063-b0cf448d479e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e75df7c9c10ae6d3d0a73a03f1dccce7&auto=format&fit=crop&w=1950&q=80");
+	background-size: cover;
+	opacity: 0;
+	/* image taken from UnSplash.com credit to Lucas Clara */
+}
