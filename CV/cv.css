@@ -100,6 +100,17 @@ section a{
 	transform: scale(1.4);
 }
 
+#landing h1, #landing p, #profile{
+	opacity: 0;
+	animation: 1s ease-in fadein forwards;
+}
+
+@keyframes fadein{
+	100%{
+		opacity: 1;
+	}
+}
+
 /*Card Styling*/
 
 .card{
