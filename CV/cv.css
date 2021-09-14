@@ -226,6 +226,10 @@ section a{
 		max-height: 2em;
 	}
 
+	.expanded{
+		max-height: 100em;
+	}
+
 	.socials{
 		font-size: 12px;
 	}
