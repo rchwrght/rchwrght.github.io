@@ -7,13 +7,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="cv.css">        
-
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<link rel="stylesheet" href="cv.css">
         <script src="https://kit.fontawesome.com/3e00a8ed37.js" crossorigin="anonymous"></script>
     </head>
     <body>
     	<header id="header">
-    		<nav>
+    		<nav class="navbar navbar-md">
     			<ul>
     				<li><a class="middle" href="#about-me">About Me</a></li>
     				<li><a class="middle" href="#work-experience">Work Experience</a></li>
@@ -26,82 +26,114 @@
     	<section id="landing">
     		<h1>Rich Wright CV</h1>
     		<p>France based, hospitality and business specialist</p>
-    		<img src="https://media-exp1.licdn.com/dms/image/C4E03AQH4sxJfPn2qQw/profile-displayphoto-shrink_200_200/0/1599229594186?e=1636588800&v=beta&t=reeMST8n6eWChniyg__LVkOniCHebHcj2arPeNCeuEo" alt="Profile Picture" id="profile">
+    		<img src="../images/me.jpeg" alt="Profile Picture" id="profile">
     	</section>
     	<section id="about-me">
     		<h2>About Me</h2>
-    		<div id="personal">
+    		<div class="card">
     			<p>I'm 34 years old, originally from Reading, UK and now live the beautiful surrounds of the French Alps in the world famous resort of <em>Meribel</em>. As you would expect from someone who has chosen to live the mountains I am an avid <strong>Skier, Snowboarder and Mountain Biker.</strong> Alongside these activities, I also enjoy <strong>reading</strong> historical fiction, challenging myself to <strong>code</strong> simple websites and programmes, and <strong>travelling</strong> to foreign countries to experience different cultures.</p>
     		</div>
-    		<div class="study card">
-    			<h3>Proficiencies and Experience</h3>
-	    		<ul>
-	    			<li>IT solution implementations</li>
-	    			<li>Business Financial Analysis</li>
-	    			<li>Presenting to Board Members and Senior Management</li>
-	    			<li>Quickbooks Online</li>
-	    			<li>Spoken, written and Verbal French</li>
-	    			<li>Microsoft Office and GSuite Online</li>
-	    		</ul>
+    		<div class="card">
+    			<button class="btn btn-link" data-toggle="collapse" data-target="#skills" aria-expanded="false" aria-controls="skills">Proficiencies and Experience</button>
+		    	<div class="collapse" id="skills">	
+		    		<ul>
+		    			<li>IT solution implementations</li>
+		    			<li>Business Financial Analysis</li>
+		    			<li>Presenting to Board Members and Senior Management</li>
+		    			<li>Quickbooks Online</li>
+		    			<li>Spoken, written and Verbal French</li>
+		    			<li>Microsoft Office and GSuite Online</li>
+		    		</ul>
+		    	</div>
     		</div>
     	</section>
-    	<section id="work-experience">
+    	<div id="work-experience">
     		<h2>Work Experience</h2>
-    		<div class="job card">
-    			<h3>Business Development Manager</h3>
-    			<h4><a href="https://european-pubs.com" target="_blank">European Pubs Limited</a> 01-02-2019 to present</h4>
-	    		<p>As part of the <strong>senior management</strong> team I am involved in all high level decisions, during a very turbulent time for the company. In 2019 we closed two of our venues as we moved into a larger space that also offered a hotel as part of our portfolio, before then leading into the COVID-19 pandemic through 2020 and 2021. During this time Brexit was also finalised which resulted in European Pubs having to adjust its recruiting strategy.</p>
-	    		<p>My position had originally been created to focus on growing European Pubs with a target valuation of 10m€ with 15 venues by 2025. Understandably due to the reasons mentioned above those plans and targets were adjusted and my focus became much more <strong>strategic</strong> and internal as we navigated these years.</p>
-	    		<p>Whilst I was only able to deliver the company growth of trading two venues with a gross revenue of approximately 1m€ to single building venue with a gross revenue of 2m€, I ensured the company had <em>scaleable</em> practices in place to enable further growth. This took place in the following ways</p>
-	    		<ul>
-	    			<li>Moved bookkeeping and accounting system to the cloud allowing wider access amongst stakeholders</li>
-	    			<li>Implemented dedicated HR and Staff Scheduling system</li>
-	    			<li>Implemented dedicated Stock and Invetory Management System</li>
-	    			<li>Oversaw switch between POS systems to a more user friendly and multiple venue focused service</li>
-	    			<li>Reviewed and analysed financials of potential companies for future acquirement</li>
-	    		</ul>
-    		</div>
-    		<div class="job card">
-    			<h3>Jacks Manager</h3>
-	    		<h4><a href="https://european-pubs.com" target="_blank">European Pubs Limited</a> 30-09-2014 to 31-05-2018</h4>
-	    		<ul>
-	    			<li>Full Budget accountability</li>
-	    			<li>Full Venue accountability</li>
-	    			<li>Recruitment</li>
-	    			<li>Management of a team of 20</li>	    		
-	    		</ul>
-    		</div>
-    		<div class="job card">
-    		<h3>Bar Manager</h3>
-	    		<h4><a href="https://www.latavernemeribel.com" target="_blank">Alpine Bars</a> - La Taverne 15-10-2012 to 30-09-2014</h4>
-	    		<ul>
-	    			<li>Management of a team of 35</li>
-	    			<li>Stock and Inventory accountability</li>
-	    			<li>Staff Scheduling</li>
-	    		</ul>
-	    	</div>
-    		<div class="job card">
-    			<h3>Resort Manager</h3>
-	    		<h4><a href="https://www.hotelplan.co.uk" target="_blank">Hotelplan UK</a> December - April 2009 to 2012</h4>
-	    		<ul>
-	    			<li>Management of a team of 30</li>
-	    			<li>Ensure delivery of Hotelplan Terms of Service and exceed were possible</li>
-	    			<li>Customer Relations</li>
-	    		</ul>
-    		</div>
-    		<div class="job card">
-	    		<h3>Bar Supervisor</h3>
-		    	<h4><a href="https://www.youngs.co.uk/geronimo" target="_blank">Geronimo Inns</a> - Northcote Inn May - November 2009, 2011</h4>
-	    	</div>
-    		<div class="job card">
-    			<h3>Snowsports Instructor</h3>
-    			<h4><a href="https://www.mthotham.com.au" taret="_blank">Mt Hotham</a> - June - October 2008</h4>
-    		</div>
-    		<div class="job card">
-    			<h3>Snowsports Instructor</h3>
-    			<h4><a href="https://www.mountbawbaw.com.au" taret="_blank">Mt Baw Baw</a> - June - October 2007, 2010</h4>
-    		</div>    			
-    	</section>
+    			<div id="accordion">
+		    		<div class="job card">
+		    			<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Business Development Manager</button>
+		    			<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+		    				<div class="card-body">
+				    			<h4><a href="https://european-pubs.com" target="_blank">European Pubs Limited</a> 01-02-2019 to present</h4>
+					    		<p>As part of the <strong>senior management</strong> team I am involved in all high level decisions, during a very turbulent time for the company. In 2019 we closed two of our venues as we moved into a larger space that also offered a hotel as part of our portfolio, before then leading into the COVID-19 pandemic through 2020 and 2021. During this time Brexit was also finalised which resulted in European Pubs having to adjust its recruiting strategy.</p>
+					    		<p>My position had originally been created to focus on growing European Pubs with a target valuation of 10m€ with 15 venues by 2025. Understandably due to the reasons mentioned above those plans and targets were adjusted and my focus became much more <strong>strategic</strong> and internal as we navigated these years.</p>
+					    		<p>Whilst I was only able to deliver the company growth of trading two venues with a gross revenue of approximately 1m€ to single building venue with a gross revenue of 2m€, I ensured the company had <em>scaleable</em> practices in place to enable further growth. This took place in the following ways</p>
+					    		<ul>
+					    			<li>Moved bookkeeping and accounting system to the cloud allowing wider access amongst stakeholders</li>
+					    			<li>Implemented dedicated HR and Staff Scheduling system</li>
+					    			<li>Implemented dedicated Stock and Invetory Management System</li>
+					    			<li>Oversaw switch between POS systems to a more user friendly and multiple venue focused service</li>
+					    			<li>Reviewed and analysed financials of potential companies for future acquirement</li>
+					    		</ul>
+					    	</div>
+				    	</div>
+		    		</div>
+		    		<div class="job card">
+		    			<button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-control="collapseTwo">Jacks Manager</button>
+			    		<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+				    		<div class="card-body">
+					    		<h4><a href="https://european-pubs.com" target="_blank">European Pubs Limited</a> 30-09-2014 to 31-05-2018</h4>
+					    		<ul>
+					    			<li>Full Budget accountability</li>
+					    			<li>Full Venue accountability</li>
+					    			<li>Recruitment</li>
+					    			<li>Management of a team of 20</li>	    		
+					    		</ul>
+					    	</div>
+					    </div>
+		    		</div>
+		    		<div class="job card">
+		    			<button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-control="collapseThree">Bar Manager</button>
+		    			<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+		    				<div class="card-body">
+					    		<h4><a href="https://www.latavernemeribel.com" target="_blank">Alpine Bars</a> - La Taverne 15-10-2012 to 30-09-2014</h4>
+					    		<ul>
+					    			<li>Management of a team of 35</li>
+					    			<li>Stock and Inventory accountability</li>
+					    			<li>Staff Scheduling</li>
+					    		</ul>
+					    	</div>
+				    	</div>
+			    	</div>
+		    		<div class="job card">
+		    			<button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-control="collapseFour">Resort Manager</button>
+		    			<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+		    				<div class="card-body">
+					    		<h4><a href="https://www.hotelplan.co.uk" target="_blank">Hotelplan UK</a> December - April 2009 to 2012</h4>
+					    		<ul>
+					    			<li>Management of a team of 30</li>
+					    			<li>Ensure delivery of Hotelplan Terms of Service and exceed were possible</li>
+					    			<li>Customer Relations</li>
+					    		</ul>
+					    	</div>
+					    </div>
+		    		</div>
+		    		<div class="job card">
+		    			<button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-control="collapseFive">Bar Supervisor</button>
+		    			<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+		    				<div class="card-body">
+				    			<h4><a href="https://www.youngs.co.uk/geronimo" target="_blank">Geronimo Inns</a> - Northcote Inn May - November 2009, 2011</h4>
+				    		</div>
+				    	</div>
+			    	</div>
+		    		<div class="job card">
+		    			<button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-control="collapseSix">Snowsports Instructor</button>
+		    			<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+		    				<div class="card-body">
+		    					<h4><a href="https://www.mthotham.com.au" taret="_blank">Mt Hotham</a> - June - October 2008</h4>
+		    				</div>
+		    			</div>
+		    		</div>
+		    		<div class="job card">
+		    			<button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-control="collapseSeven">Snowsports Instructor</button>
+		    			<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+		    				<div class="card-body">
+		    					<h4><a href="https://www.mountbawbaw.com.au" taret="_blank">Mt Baw Baw</a> - June - October 2007, 2010</h4>
+		    				</div>
+		    			</div>
+		    		</div>    			
+		    	</div>
+    	</div>
     	<section id="education">
     		<h2>Education</h2>
     		<div class="study card">
@@ -139,7 +171,9 @@
     			</a>
     		</div>
     	</section>
-    	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    	<script src="cv.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    	<!--<script src="cv.js"></script>-->
     </body>
 </html>
