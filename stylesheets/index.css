@@ -106,7 +106,7 @@ nav li, nav li a{
 
 .background-image{
 	position: absolute;
-	background-image: url(../images/julian-zett-643140-unsplash.jpg);
+	background-image: url("../images/julian-zett-643140-unsplash.jpg");
 	background-size: cover;
 	top: 0;
 	left: 0;
