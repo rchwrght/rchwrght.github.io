@@ -108,6 +108,7 @@ section a{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	margin: 0;
 	font-size: 2em;
 	height: 100vh;
@@ -195,4 +196,13 @@ section a{
 
 .socials a{
 	text-decoration: none;
+}
+
+/*Responsiveness Stylings*/
+
+@media(max-width: 550px){
+	#contact{
+		flex-direction: column;
+		font-size: 1.5em;
+	}
 }
