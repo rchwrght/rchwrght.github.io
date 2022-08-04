@@ -9,7 +9,17 @@ body{
 
 /*Nav Bar Styling*/
 
+.pixelDragon{
+	height: 45px;
+	width: 45px;
+}
 
+.nav-link{
+	font-weight: 400;
+	text-decoration: none;
+	position: relative;
+	color: #f7f7f7;
+}
 
 /*
 nav{
@@ -39,12 +49,6 @@ nav li{
 	margin: 0 5vw;
 }
 
-li a{
-	font-weight: 400;
-	text-decoration: none;
-	position: relative;
-	color: #f7f7f7;
-}
 */
 /*Styling to generate underline on hover in Navbar*/
 
