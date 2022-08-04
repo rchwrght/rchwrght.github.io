@@ -9,6 +9,9 @@ body{
 
 /*Nav Bar Styling*/
 
+
+
+/*
 nav{
 	position: fixed;
 	top: 0;
@@ -42,11 +45,7 @@ li a{
 	position: relative;
 	color: #f7f7f7;
 }
-
-span{
-	display: none;
-}
-
+*/
 /*Styling to generate underline on hover in Navbar*/
 
 .middle:before{
@@ -193,66 +192,3 @@ section a{
 .socials a{
 	text-decoration: none;
 }
-
-/*jQuery Card expansion*/
-/*
-.expanded{
-	max-height: 100em;
-}
-
-@media (max-width: 600px){
-	nav{
-		position: absolute;
-		overflow: hidden;
-		max-height: 1.5em;
-		transition: all 1s;
-		padding-top: 2em;
-	}
-
-	nav ul{
-		display: flex;
-		flex-direction: column;
-	}
-
-	nav li{
-		margin: 5px;
-		text-align: right;
-	}
-
-	span{
-		display: inherit;
-		position: absolute;
-		top: 1.5em;
-		left: 1.5em;
-		transition: all 0.5s;
-	}
-
-	h3{
-		font-size: 1em;
-		margin: 0.5em;
-	}
-
-	.menu-expanded{
-		max-height: 50em;
-	}
-
-	.rotated{
-		transform: rotate(45deg);
-	}
-
-	.card{
-		max-height: 2em;
-	}
-
-	.expanded{
-		max-height: 100em;
-	}
-
-	.socials{
-		font-size: 12px;
-	}
-
-	#landing p{
-		font-size: 15px;
-	}
-}*/
