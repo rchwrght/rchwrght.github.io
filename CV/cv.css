@@ -88,11 +88,14 @@ section a{
 }
 
 .btn-link{
-	color: red; /*to style*/
+	height: 100%;
+	width: 100%;
+	color: #fff;
 }
 
 .btn-link:hover{
-	color: green; /*to style*/
+	color: #000;
+	background-color: #094C6D;
 }
 
 /*Splash Zone*/
@@ -150,6 +153,10 @@ section a{
 .card:hover{
 	-webkit-box-shadow: 2px 2px 16px -5px #fff; 
 	box-shadow: 2px 2px 16px -5px #fff;
+}
+
+.job{
+	padding: 0 0;
 }
 
 /*Ensure personal card is styled the same but not affected by Card JavaScript*/
